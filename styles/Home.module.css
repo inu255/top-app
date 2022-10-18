@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
 }
+/* npm i -D stylelint stylelint-config-standard stylelint-order stylelint-order-config-standard */
 
 .main {
   min-height: 100vh;
