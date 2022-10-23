@@ -21,10 +21,11 @@
     "jsx": "preserve"
   },
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
+		"next-env.d.ts",
+		"svg.d.ts",
+		"**/*.ts",
+		"**/*.tsx"
+	],
   "exclude": [
     "node_modules"
   ]
