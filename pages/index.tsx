@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Htag } from "../components";
+import { Button, Htag, P } from "../components";
 
 export default function Home() {
   return (
@@ -9,6 +9,10 @@ export default function Home() {
       <Button appearance="ghost" arrow="right">
         Кнопка
       </Button>
+
+      <P size="small">small</P>
+      <P>medium</P>
+      <P size="large">large</P>
     </>
   );
 }
