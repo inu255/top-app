@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Htag, P } from "../components";
+import { Button, Htag, P, Tag } from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +13,14 @@ export default function Home() {
       <P size="small">small</P>
       <P>medium</P>
       <P size="large">large</P>
+      <Tag size="small">Ghost</Tag>
+      <Tag size="medium" color="red">
+        Red
+      </Tag>
+      <Tag size="small" color="green">
+        Green
+      </Tag>
+      <Tag color="primary">Green</Tag>
     </>
   );
 }
