@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Htag, P, Rating, Tag } from "../components";
+import { Layout } from "../layout/Layout";
 
 export default function Home() {
+  const [rating, setRating] = useState<number>(4);
   return (
-    <>
+    <Layout>
       <Htag tag="h1">Текст</Htag>
       <Button appearance="primary">Кнопка</Button>
       <Button appearance="ghost" arrow="right">
@@ -21,7 +23,7 @@ export default function Home() {
         Green
       </Tag>
       <Tag color="primary">Green</Tag>
-      <Rating rating={4} />
-    </>
+      <Rating rating={rating} isEditable setRating={setRating} />
+    </Layout>
   );
 }
