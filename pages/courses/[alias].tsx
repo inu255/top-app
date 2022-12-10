@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
 import React, { useState } from "react";
 import axios from "axios";
 import { MenuItem } from "../../interfaces/menu.interface";
-import { TopPageModel } from "../../interfaces/toppage.interface";
+import { TopPageModel } from "../../interfaces/page.interface";
 import { ParsedUrlQuery } from "querystring";
 import { ProductModel } from "../../interfaces/product.interface";
 import { withLayout } from "../../layout/Layout";
