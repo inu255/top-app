@@ -10,14 +10,10 @@ export const Rating = ({
   setRating,
   ...props
 }: RatingProps): JSX.Element => {
-  const [ratingArray, setratingArray] = useState<JSX.Element[]>(
-    new Array(5).fill(<></>)
-  );
+  const [ratingArray, setratingArray] = useState<JSX.Element[]>(new Array(5).fill(<></>));
 
   useEffect(() => {
     constructRating(rating);
-
-    return () => {};
   }, [rating]);
 
   const constructRating = (currentRating: number) => {
@@ -34,9 +30,7 @@ export const Rating = ({
         >
           <StarIcon
             tabIndex={isEditable ? 0 : -1}
-            onKeyDown={(e: KeyboardEvent<SVGElement>) =>
-              isEditable && handleSpace(i + 1, e)
-            }
+            onKeyDown={(e: KeyboardEvent<SVGElement>) => isEditable && handleSpace(i + 1, e)}
           />
         </span>
       );
