@@ -9,5 +9,5 @@ export const firstLevelMenu: FirstLevelMenuItem[] = [
   { route: "courses", name: "Курсы", icon: <CoursesIcon />, id: TopLevelCategory.Courses },
   { route: "services", name: "Сервисы", icon: <ServicesIcon />, id: TopLevelCategory.Services },
   { route: "books", name: "Книги", icon: <BooksIcon />, id: TopLevelCategory.Books },
-  { route: "producst", name: "Продукты", icon: <ProductsIcon />, id: TopLevelCategory.Products },
+  { route: "products", name: "Продукты", icon: <ProductsIcon />, id: TopLevelCategory.Products },
 ];
