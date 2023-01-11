@@ -60,8 +60,6 @@ export const getStaticProps: GetStaticProps<TopPageProps> = async ({
       { category: page.category, limit: 10 }
     );
 
-    console.log(1, menu, firstCategoryItem.id, page, products);
-
     return {
       props: {
         menu,
