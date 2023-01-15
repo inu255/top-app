@@ -42,5 +42,5 @@
   color: var(--primary);
   background: none;
   font-weight: bold;
-  border: 1px solid var(--gray-light);
+  border: 1px solid var(--primary);
 }
